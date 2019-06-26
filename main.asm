@@ -116,7 +116,7 @@ includelib \masm32\lib\kernel32.lib
         push 0
         call ExitProcess
 
-    main ENDP
-    END main
+    main ENDP ;Finaliza o bloco o processo do bloco main
+    END main ;Finaliza o bloco main
 
-END
+END ;Finaliza o programa
